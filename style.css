@@ -1,0 +1,52 @@
+:root {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.list {
+    font-size: 1.4em;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 18rem;
+    margin: auto;
+}
+
+.itemList {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list div {
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 5px;
+    border: 1px solid darkgray
+}
+
+.list div:not(:last-child):hover {
+    box-shadow: 4px 4px 10px black;
+    font-size: 1.2em;
+}
+
+
+.list div:not(:last-child):nth-child(odd){
+    background-color:  white;
+}
+
+.list div:not(:last-child):nth-child(even){
+    color: white;
+    background-color:  black;
+}
+
+input {
+    font-size: 0.7em;
+    padding: 5px;
+}
+
+input[type=button]{
+    background-color: royalblue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}

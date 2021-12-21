@@ -1,0 +1,1 @@
+const appList = angular.module("myList", []);
